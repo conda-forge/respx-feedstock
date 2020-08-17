@@ -1,5 +1,5 @@
 {% set name = "respx" %}
-{% set version = "0.11.3" %}
+{% set version = "0.12.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eb0fd35263712c2f48b25ffada29862a4fb050140e9a86e75af7657a3d7beab0
+  sha256: d61dfe0f6c47b39c6cfdac55c8f0c00f78133fd13067dc2aefa423cfd45f8cd1
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -20,7 +20,6 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - asynctest
     - httpx <0.15,>=0.14
     - python >=3.6
 
