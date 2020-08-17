@@ -5,7 +5,7 @@ Home: https://lundberg.github.io/respx
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A utility for mocking out the Python HTTPX library.
 
