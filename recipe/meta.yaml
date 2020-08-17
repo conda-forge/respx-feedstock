@@ -20,8 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - asynctest
-    - httpx <0.14,>=0.13
+    - httpx <0.15,>=0.14
     - python >=3.6
 
 test:
