@@ -1,5 +1,5 @@
 {% set name = "respx" %}
-{% set version = "0.13.0" %}
+{% set version = "0.14.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b644268dcbc2cad45fd116453fd80ea3fd6e1930104d0e1e09fb757c13751dd7
+  sha256: 234a87fa16ded2d87ae1618f35a302396f5bd8bbaad32a4a6ecce9944eaca2f5
 
 build:
   number: 0
